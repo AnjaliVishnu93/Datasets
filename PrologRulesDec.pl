@@ -1,4 +1,3 @@
-% Rules derived from the decision tree
 direction(c0) :- a3(false), a10(false).
 direction(c3) :- a3(false), a10(true), a2(false), a13(false).
 direction(c0) :- a3(false), a10(true), a2(false), a13(true), a0(false).
